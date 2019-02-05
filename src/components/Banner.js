@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './Banner.css'
 import logo from '../assets/images/logo.png'
 
 const Banner = (props) => (
@@ -9,7 +10,7 @@ const Banner = (props) => (
                 <h1>Get ready to level up with Autism Sidekick</h1>
             </header>
             <div className="content">
-                <img src={logo} alt="Autism Sidekick" />
+                <img className="logo" src={logo} alt="Autism Sidekick" />
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Coming Soon!</a></li>
                 </ul>
