@@ -84,8 +84,9 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Autism Sidekick is a project focused on granting super powers to people living with ASD using augmented reality (AR). Powered by the Unity engine, the Autism Sidekick is an entry in the <a href="https://connect.unity.com/challenges/unityforhumanity">2019 Unity for Humanity Challenge</a>.</p>
                             <ul className="actions">
-                                <li><Link to="https://s3.amazonaws.com/autism-sidekick/2019UnityforHumanity_AutismSidekick.pdf" className="button next">Learn More</Link></li>
+                                <li><a href="https://s3.amazonaws.com/autism-sidekick/2019UnityforHumanity_AutismSidekick.pdf" className="button next">Pitch Deck</a></li>
                             </ul>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bH6RDs4iTjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </section>
                 </div>
